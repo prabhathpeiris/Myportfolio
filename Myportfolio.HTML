@@ -4,90 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prabhath Peiris</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <h1>Prabhath Peiris</h1>
-    <p>Computer Science Undergraduate | Programmer</p>
 
-    <br>
+    <header class="header-section">
+        <img src="Prabhath peiris.jpg" alt="Prabhath Peiris" class="profile-pic">
+        <h1>Prabhath Peiris</h1>
+        <p>Computer Science Undergraduate | Programmer</p>
+    </header>
 
-    <h2>About Me</h2>
-    <p>
-        Hello! I am Kaluthanthrige Thilina Prabhath Peiris, an undergraduate
-        student pursuing a degree in Computer Science at the University of
-        Sri Jayewardenepura. I have a strong passion for software development
-        and programming. Currently, I am expanding my technical skills in C
-        programming. I enjoy taking on new challenges and balancing my
-        academic journey with practical, real-world experiences.
-    </p>
+    
+    <div class="container">
+        
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am Kaluthanthrige Thilina Prabhath Peiris, an undergraduate
+                student pursuing a degree in Computer Science at the University of
+                Sri Jayewardenepura. I have a strong passion for software development
+                and programming. Currently, I am expanding my technical skills in C
+                programming. I enjoy taking on new challenges and balancing my
+                academic journey with practical, real-world experiences.
+            </p>
+        </section>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>C programming</li>
-        <li>HTML & CSS</li>
-        <li>Github & Version Control</li>
-        <li>Time Management & Adaptability</li>
-    </ul>
+        <section class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>C programming</li>
+                <li>HTML & CSS</li>
+                <li>Github & Version Control</li>
+                <li>Time Management & Adaptability</li>
+            </ul>
+        </section>
 
-    <h2>Projects</h2>
+        <section class="card">
+            <h2>Projects</h2>
+            <table>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Technology Used</th>
+                    <th>Preview</th>
+                </tr>
+                <tr>
+                    <td>Smart Hospital Patient & Resource Allocation System</td>
+                    <td>
+                        An individual software project developed to manage hospital
+                        patients and resources efficiently.
+                    </td>
+                    <td>C programming, Code::Blocks</td>
+                    <td>
+                      
+                        <a href="https://github.com/prabhathpeiris/Smart-Hospital-System" target="_blank">
+                            <img src="screen shot.png" alt="Project Preview" class="preview-img">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </section>
 
-    <table border="1">
-        <tr>
-            <th>Project Name</th>
-            <th>Description</th>
-            <th>Technology Used</th>
-            <th></th>
-        </tr>
+        <section class="card">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br><br>
 
-        <tr>
-            <td>Smart Hospital Patient & Resource Allocation System</td>
-            <td>
-                An individual software project developed to manage hospital
-                patients and resources efficiently.
-            </td>
-            <td>C programming, Code::Blocks</td>
-            <td>
-                <a href="https://github.com/prabhathpeiris/Smart-Hospital-System">
-                    View Project
-                </a>
-            </td>
-        </tr>
-    </table>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br><br>
 
-    <h2>Contact Me</h2>
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="message"></textarea>
+                <br><br>
 
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <br><br>
-
-        <label for="message">Message:</label>
-        <br>
-
-        <textarea id="message" name="message"></textarea>
-        <br><br>
-
-        <button type="submit">Submit</button>
-    </form>
+    </div>
 
     <footer>
-        <p>Connect with me</p>
-
-        <a href="https://www.linkedin.com/in/prabhath-peiris-1b0b4a1b6/">
-            LinkedIn
-        </a>
-
-        <a href="https://github.com/prabhathpeiris">
-            GitHub
-        </a>
+        <p>Connect with me:</p>
+        <a href="https://github.com/prabhathpeiris" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/prabhath-peiris-1b0b4a1b6/" target="_blank">LinkedIn</a>
     </footer>
 
 </body>
